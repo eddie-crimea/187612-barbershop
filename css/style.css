@@ -21,7 +21,7 @@ h4 {
   outline: 2px solid green;
 }
 .container {
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
   padding: 0 10px;
   outline: 3px solid red;
@@ -29,17 +29,17 @@ h4 {
 .logo-main{
   float: left;
   width: 120px;
-  outline: 2px solid yellow;
   min-height: 70px;
+  outline: 2px solid yellow;
 }
 
 .main-navigation {
   float: left;
   width: 540px;
+  min-height: 70px;
   margin-left: 20px;
   outline: 2px solid yellow;
-  min-height: 70px;
-}
+  }
 .main-navigation-item {
   display: inline-block;
   margin-right: 40px;
@@ -59,42 +59,43 @@ h4 {
 }
 .filter-block {
   float: left;
-  width: 160px;
+  width: 240px;
   min-height: 605px;
   outline: 2px solid yellow;
 }
 .products-section{
   float: left;
-  width: 720px;
+  width: 700px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   outline: 2px solid yellow;
-  margin-left: 55px;
   margin-bottom: 40px;
-  min-height: 610px;
+  min-height: 595px;
 }
 .catalog-list-item {
   display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 17px;
+  margin-bottom: 20px;
   outline: 2px solid black;
 }
+
 .catalog-list-item:nth-child(3) {
-  margin: 0;
+  margin-right: 0;
 }
 .catalog-list-item:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 .catalog-list {
   margin: 0;
   padding: 0;
 }
 .pag {
+  display: inline-block;
   width: 195px;
   min-height: 43px;
   outline: 2px solid yellow;
-  display: inline-block;
-  margin-left: 215px;
+  margin-left: 240px;
   margin-bottom: 50px;
 }
 .pag-item {
@@ -139,8 +140,7 @@ h4 {
 
 .item-container {
   float: left;
-  width: 460px;
-  margin-right: 90px;
+  width: 480px;
   min-height: 680px;
   outline: 2px solid yellow;
 }
@@ -155,7 +155,7 @@ figure {
 .gallery-item {
   display: inline-block;
   margin-top: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
   outline: 2px solid black;
 }
 .gallery-item:nth-child(2) {
@@ -166,8 +166,11 @@ figure {
 }
 .info-block {
   float: left;
-  width: 390px;
-  min-height: 680px;
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 20px;
+  width: 380px;
+  min-height: 655px;
   outline: 2px solid yellow ;
 }
 
