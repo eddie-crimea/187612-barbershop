@@ -14,6 +14,7 @@ body {
 }
 h1 {
   font-size: 30px;
+  line-height: 42px;
 }
 h4 {
   margin-top: 0;
@@ -100,33 +101,47 @@ h4 {
 .login:hover::before {
   opacity: 1;
 }
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
 .breadcrumbs {
-  margin-bottom: 54px;
+  margin-bottom: 50px;
 }
 .breadcrumbs-list {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-size: 0;
 }
 .breadcrumbs-item {
   position: relative;
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 25px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.breadcrumbs-link {
+  text-decoration: none;
 }
 .breadcrumbs-item:nth-child(2) {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .breadcrumbs-item:nth-child(3){
-  padding-left: 10px;
+  padding-left: 15px;
+}
+.breadcrumbs-item:last-child{
+  padding-left: 20px;
 }
 .breadcrumbs-item::after {
   content: "";
   position: absolute;
   display: block;
-  bottom: 30%;
+  bottom: 50%;
   right: 0;
   width: 8px;
   height: 8px;
+  margin-bottom: -5px;
   background-color: #000000;
   transform: rotate(45deg);
 }
@@ -138,17 +153,23 @@ h4 {
 .filter-check-list {
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  list-style: none;
+  font-size: 0;
 }
 .filter-check-item {
   margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 18px;
 }
 .filter-check-item input {
   margin-right: 20px;
 }
+.filter-check-item:hover {
+  color: #7f6048;
+}
 .show-btn {
   display: block;
-  padding: 12px 31px;
+  padding: 13px 33px;
   color: #ffffff;
   background-color: #000000;
   border: none;
@@ -166,9 +187,6 @@ h4 {
 .products-section{
   float: left;
   width: 700px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
   margin-bottom: 40px;
   min-height: 595px;
 }
@@ -204,7 +222,7 @@ h4 {
   vertical-align: top;
 }
 .item-price {
-  padding: 15px 28px;
+  padding: 13px 30px;
   background: #e5e5e5;
   border: none;
   outline: none;
@@ -218,7 +236,7 @@ h4 {
   text-decoration: none;
 }
 .buy-btn {
-  padding: 15px 20px;
+  padding: 13px 20px;
   background: #000000;
   border: none;
   outline: none;
@@ -255,6 +273,8 @@ h4 {
   margin-right: 5px;
   vertical-align: top;
   background: #000000;
+  font-size: 14px;
+  line-height: 18px;
 }
 .pag-item:last-child {
   margin-right: 0;
@@ -274,6 +294,7 @@ h4 {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-size: 0;
 }
 
 .main-footer {
@@ -357,8 +378,7 @@ h4 {
 }
 .btn {
   display: block;
-  margin-right: 16px;
-  padding: 10px 30px;
+  padding: 10px 24px;
   margin-top: 15px;
   font-weight: 700;
   font-size: 14px;
