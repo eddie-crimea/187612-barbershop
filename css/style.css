@@ -431,6 +431,9 @@ figure {
 .item-descrition {
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  width: ;
 }
 .item-name {
   padding-top: 60px;
@@ -443,6 +446,8 @@ figure {
 .components-item {
   position: relative;
   padding-left: 20px;
+  font-size: 14px;
+  line-height: 24px;
 }
 .components-item::after {
   content: "";
